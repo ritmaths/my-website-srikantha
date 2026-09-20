@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Srikantha N | Assistant Professor - Ramaiah Institute of Technology</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Academicons for Google Scholar, ORCID, etc. -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0f7ff',
+                            100: '#e0effe',
+                            600: '#0284c7',
+                            800: '#075985',
+                            900: '#0c4a6e',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+
+    <!-- Header / Navigation -->
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="#" class="font-bold text-xl text-brand-900 tracking-tight">Dr. Srikantha N</a>
+                
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex space-x-6 text-sm font-medium">
+                    <a href="#about" class="text-slate-600 hover:text-brand-600 transition">About</a>
+                    <a href="#research" class="text-slate-600 hover:text-brand-600 transition">Research & Patents</a>
+                    <a href="#publications" class="text-slate-600 hover:text-brand-600 transition">Publications</a>
+                    <a href="#experience" class="text-slate-600 hover:text-brand-600 transition">Experience</a>
+                    <a href="#teaching" class="text-slate-600 hover:text-brand-600 transition">Teaching</a>
+                    <a href="#talks" class="text-slate-600 hover:text-brand-600 transition">Invited Talks</a>
+                    <a href="#contact" class="text-slate-600 hover:text-brand-600 transition">Contact</a>
+                </nav>
+
+                <!-- Mobile menu button -->
+                <button id="mobile-menu-btn" class="md:hidden text-slate-600 hover:text-slate-900 focus:outline-none">
+                    <i class="fa-solid fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Drawer -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-4 space-y-2">
+            <a href="#about" class="block text-slate-600 py-1 hover:text-brand-600">About</a>
+            <a href="#research" class="block text-slate-600 py-1 hover:text-brand-600">Research & Patents</a>
+            <a href="#publications" class="block text-slate-600 py-1 hover:text-brand-600">Publications</a>
+            <a href="#experience" class="block text-slate-600 py-1 hover:text-brand-600">Experience</a>
+            <a href="#teaching" class="block text-slate-600 py-1 hover:text-brand-600">Teaching</a>
+            <a href="#talks" class="block text-slate-600 py-1 hover:text-brand-600">Invited Talks</a>
+            <a href="#contact" class="block text-slate-600 py-1 hover:text-brand-600">Contact</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="about" class="py-16 md:py-24 bg-gradient-to-b from-brand-50 to-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8 items-center">
+                <!-- Profile Avatar / Initial Badge -->
+                <div class="flex justify-center md:justify-start">
+                    <div class="w-48 h-48 md:w-56 md:h-56 rounded-full bg-brand-800 text-white flex items-center justify-center text-6xl font-bold border-4 border-white shadow-xl">
+                        SN
+                    </div>
+                </div>
+
+                <!-- Info Column -->
+                <div class="md:col-span-2 text-center md:text-left space-y-4">
+                    <div class="inline-block bg-brand-100 text-brand-800 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">
+                        Mathematics Department
+                    </div>
+                    <h1 class="text-3xl md:text-5xl font-extrabold text-slate-900 tracking-tight">Dr. Srikantha N</h1>
+                    <p class="text-xl font-medium text-brand-800">Assistant Professor (Ph.D.)</p>
+                    <p class="text-slate-600 leading-relaxed">
+                        Ramaiah Institute of Technology, Bangalore. Specializing in Computational Fluid Dynamics, Heat and Mass Transfer, and Nanofluids with over 13 years of academic and research experience.
+                    </p>
+
+                    <!-- Profile Quick Stats Badge Grid -->
+                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-2">
+                        <div class="bg-white p-3 rounded-lg shadow-sm border border-slate-200 text-center">
+                            <span class="block text-2xl font-bold text-brand-800">13</span>
+                            <span class="text-xs text-slate-500 font-medium">Years Experience</span>
+                        </div>
+                        <div class="bg-white p-3 rounded-lg shadow-sm border border-slate-200 text-center">
+                            <span class="block text-2xl font-bold text-brand-800">27</span>
+                            <span class="text-xs text-slate-500 font-medium">Journal Papers</span>
+                        </div>
+                        <div class="bg-white p-3 rounded-lg shadow-sm border border-slate-200 text-center">
+                            <span class="block text-2xl font-bold text-brand-800">1</span>
+                            <span class="text-xs text-slate-500 font-medium">UK Patent</span>
+                        </div>
+                        <div class="bg-white p-3 rounded-lg shadow-sm border border-slate-200 text-center">
+                            <span class="block text-2xl font-bold text-brand-800">1</span>
+                            <span class="text-xs text-slate-500 font-medium">Ph.D. Guided</span>
+                        </div>
+                    </div>
+
+                    <!-- Social / Academic Links -->
+                    <div class="flex flex-wrap justify-center md:justify-start gap-3 pt-4">
+                        <a href="https://scholar.google.com/citations?user=vdznMNUAAAAJ&hl=en" target="_blank" class="inline-flex items-center gap-2 bg-white px-3 py-2 rounded-md shadow-sm border border-slate-200 text-sm font-medium hover:text-brand-600 hover:border-brand-600 transition">
+                            <i class="ai ai-google-scholar text-lg text-blue-600"></i> Google Scholar
+                        </a>
+                        <a href="https://orcid.org/my-orcid?orcid=0000-0001-5176-2898" target="_blank" class="inline-flex items-center gap-2 bg-white px-3 py-2 rounded-md shadow-sm border border-slate-200 text-sm font-medium hover:text-brand-600 hover:border-brand-600 transition">
+                            <i class="ai ai-orcid text-lg text-emerald-600"></i> ORCID
+                        </a>
+                        <a href="https://www.researchgate.net/profile/Srikantha-N" target="_blank" class="inline-flex items-center gap-2 bg-white px-3 py-2 rounded-md shadow-sm border border-slate-200 text-sm font-medium hover:text-brand-600 hover:border-brand-600 transition">
+                            <i class="ai ai-researchgate text-lg text-teal-600"></i> ResearchGate
+                        </a>
+                        <a href="https://www.geogebra.org/u/srigraphs" target="_blank" class="inline-flex items-center gap-2 bg-white px-3 py-2 rounded-md shadow-sm border border-slate-200 text-sm font-medium hover:text-brand-600 hover:border-brand-600 transition">
+                            <i class="fa-solid fa-chart-line text-slate-700"></i> GeoGebra
+                        </a>
+                        <a href="https://snanaganisiddu.blogspot.in/" target="_blank" class="inline-flex items-center gap-2 bg-white px-3 py-2 rounded-md shadow-sm border border-slate-200 text-sm font-medium hover:text-brand-600 hover:border-brand-600 transition">
+                            <i class="fa-bold fa-blogger-b text-orange-500"></i> Blog
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Biography -->
+    <section class="py-12 bg-white border-y border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+                <i class="fa-solid fa-user-graduate text-brand-600"></i> Biography
+            </h2>
+            <div class="prose prose-slate max-w-none text-slate-600 leading-relaxed space-y-4">
+                <p>
+                    <strong>Dr. Srikantha N</strong> is currently serving in the Department of Mathematics at <strong>Ramaiah Institute of Technology, Bangalore</strong>. He earned his Bachelor’s, Master’s, and Doctor of Philosophy (Ph.D.) degrees from Kuvempu University. His core areas of research interest span <em>Differential Geometry</em> and <em>Fluid Mechanics</em>.
+                </p>
+                <p>
+                    With over 12 years of teaching experience and 7 years of active research contributions, Dr. Srikantha has published 27 research papers in high-impact peer-reviewed international journals and presented his findings at numerous National and International Conferences. He has successfully guided one Ph.D. scholar to completion and is currently supervising another.
+                </p>
+                <p>
+                    In addition to research, he is an active academic speaker, having delivered multiple invited lectures on mathematical concepts and software tools such as <strong>Linear Algebra, GeoGebra, Maple, and Integral Transforms</strong>. He is a Life Member of the <strong>Indian Society for Technical Education (ISTE)</strong> and holds a granted <strong>UK Design Patent</strong> in thermal testing apparatus.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Interests & Patents -->
+    <section id="research" class="py-16 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+            
+            <!-- Research Areas -->
+            <div>
+                <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+                    <i class="fa-solid fa-atom text-brand-600"></i> Research Interests
+                </h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div class="p-4 bg-white rounded-lg border border-slate-200 shadow-sm flex items-center gap-3">
+                        <i class="fa-solid fa-water text-brand-600 text-xl"></i>
+                        <span class="font-medium text-slate-800">Computational Fluid Dynamics (CFD)</span>
+                    </div>
+                    <div class="p-4 bg-white rounded-lg border border-slate-200 shadow-sm flex items-center gap-3">
+                        <i class="fa-solid fa-flask-vial text-brand-600 text-xl"></i>
+                        <span class="font-medium text-slate-800">Nanofluids & Heat Transfer</span>
+                    </div>
+                    <div class="p-4 bg-white rounded-lg border border-slate-200 shadow-sm flex items-center gap-3">
+                        <i class="fa-solid fa-temperature-arrow-up text-brand-600 text-xl"></i>
+                        <span class="font-medium text-slate-800">Convective Boundary Layer Flow</span>
+                    </div>
+                    <div class="p-4 bg-white rounded-lg border border-slate-200 shadow-sm flex items-center gap-3">
+                        <i class="fa-solid fa-cable-car text-brand-600 text-xl"></i>
+                        <span class="font-medium text-slate-800">Wire Coating Process Analysis</span>
+                    </div>
+                    <div class="p-4 bg-white rounded-lg border border-slate-200 shadow-sm flex items-center gap-3">
+                        <i class="fa-solid fa-shapes text-brand-600 text-xl"></i>
+                        <span class="font-medium text-slate-800">Differential Geometry</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Granted Patent Card -->
+            <div>
+                <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+                    <i class="fa-solid fa-award text-brand-600"></i> Patents & Innovations
+                </h2>
+                <div class="bg-white p-6 rounded-xl border border-brand-100 shadow-md flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+                    <div class="space-y-2">
+                        <span class="bg-emerald-100 text-emerald-800 text-xs font-semibold px-2.5 py-1 rounded">Granted UK Patent</span>
+                        <h3 class="text-lg font-bold text-slate-900">Laboratory Apparatus for Testing Thermal Effects in Structures with Radial Fins</h3>
+                        <p class="text-sm text-slate-600"><strong>Patent No:</strong> 6477002 | <strong>Class:</strong> 24 - Medical and Laboratory Equipment</p>
+                        <p class="text-xs text-slate-500"><strong>Inventors:</strong> Dr. Madhura Kagalagodu Ramachandra, Dr. Srikantha Narasimha Murthy, Soniya Hegde, Dr. Swetha Dali Srinath</p>
+                    </div>
+                    <div class="text-right whitespace-nowrap">
+                        <span class="text-xs font-semibold text-slate-500">Published: March 10, 2025</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Publications List -->
+    <section id="publications" class="py-16 bg-white border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-8">
+                <div>
+                    <h2 class="text-2xl font-bold text-slate-900 flex items-center gap-2">
+                        <i class="fa-solid fa-book-open text-brand-600"></i> Journal Publications
+                    </h2>
+                    <p class="text-sm text-slate-500 mt-1">Key international peer-reviewed journal papers</p>
+                </div>
+            </div>
+
+            <div class="overflow-x-auto shadow-sm rounded-lg border border-slate-200">
+                <table class="w-full text-left text-sm text-slate-600">
+                    <thead class="bg-slate-100 text-slate-800 font-semibold uppercase text-xs">
+                        <tr>
+                            <th class="py-3.5 px-4">Title & Details</th>
+                            <th class="py-3.5 px-4 hidden md:table-cell">Journal</th>
+                            <th class="py-3.5 px-4 text-center">Year</th>
+                            <th class="py-3.5 px-4 text-center">SJR Rank</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-200 bg-white">
+                        <!-- Publication Items -->
+                        <tr class="hover:bg-slate-50 transition">
+                            <td class="py-4 px-4">
+                                <p class="font-semibold text-slate-900">Linear and Weakly Nonlinear Stability Analysis: Transition to Chaos in Brinkman–Bénard Convection...</p>
+                                <p class="text-xs text-slate-500 mt-1">N. Srikantha, B. N. Veena, Soniya Hegde</p>
+                                <a href="https://doi.org/10.1142/S0218127426500884" target="_blank" class="text-xs text-brand-600 hover:underline inline-flex items-center gap-1 mt-1">DOI Link <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i></a>
+                            </td>
+                            <td class="py-4 px-4 hidden md:table-cell text-xs italic">Int. Journal of Bifurcation and Chaos</td>
+                            <td class="py-4 px-4 text-center font-semibold">2026</td>
+                            <td class="py-4 px-4 text-center"><span class="bg-emerald-100 text-emerald-800 text-xs font-bold px-2 py-0.5 rounded">Q1</span></td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-50 transition">
+                            <td class="py-4 px-4">
+                                <p class="font-semibold text-slate-900">Computational investigation of unsteady non-linear convective transport of CuO–Al2O3–H2O nanofluid...</p>
+                                <p class="text-xs text-slate-500 mt-1">N. Srikantha, Soniya Hegde, M. R. Krishna Murthy, T. Thumma</p>
+                                <a href="https://doi.org/10.1080/01430750.2025.2558159" target="_blank" class="text-xs text-brand-600 hover:underline inline-flex items-center gap-1 mt-1">DOI Link <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i></a>
+                            </td>
+                            <td class="py-4 px-4 hidden md:table-cell text-xs italic">Int. Journal of Ambient Energy</td>
+                            <td class="py-4 px-4 text-center font-semibold">2025</td>
+                            <td class="py-4 px-4 text-center"><span class="bg-blue-100 text-blue-800 text-xs font-bold px-2 py-0.5 rounded">Q2</span></td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-50 transition">
+                            <td class="py-4 px-4">
+                                <p class="font-semibold text-slate-900">Analysis of visco-inelastic biphasic fluid flow in wire coating process</p>
+                                <p class="text-xs text-slate-500 mt-1">Dr. Srikantha N, Soniya Hegde</p>
+                                <a href="https://doi.org/10.1063/5.0238878" target="_blank" class="text-xs text-brand-600 hover:underline inline-flex items-center gap-1 mt-1">DOI Link <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i></a>
+                            </td>
+                            <td class="py-4 px-4 hidden md:table-cell text-xs italic">Physics of Fluids</td>
+                            <td class="py-4 px-4 text-center font-semibold">2024</td>
+                            <td class="py-4 px-4 text-center"><span class="bg-emerald-100 text-emerald-800 text-xs font-bold px-2 py-0.5 rounded">Q1</span></td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-50 transition">
+                            <td class="py-4 px-4">
+                                <p class="font-semibold text-slate-900">Temperature-Dependent Viscosity Analysis of Powell–Eyring Fluid Model during Web Coating</p>
+                                <p class="text-xs text-slate-500 mt-1">F. Ali, S. Hegde, M. Usman, Dr. Srikantha N</p>
+                                <a href="https://doi.org/10.3390/polym16121723" target="_blank" class="text-xs text-brand-600 hover:underline inline-flex items-center gap-1 mt-1">DOI Link <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i></a>
+                            </td>
+                            <td class="py-4 px-4 hidden md:table-cell text-xs italic">Polymers</td>
+                            <td class="py-4 px-4 text-center font-semibold">2024</td>
+                            <td class="py-4 px-4 text-center"><span class="bg-emerald-100 text-emerald-800 text-xs font-bold px-2 py-0.5 rounded">Q1</span></td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-50 transition">
+                            <td class="py-4 px-4">
+                                <p class="font-semibold text-slate-900">Numerical investigation of heat and mass transfer of the Sisko fluid in a wire-coating process...</p>
+                                <p class="text-xs text-slate-500 mt-1">Dr. Srikantha N, Soniya Hegde</p>
+                                <a href="https://doi.org/10.1088/1402-4896/acf708" target="_blank" class="text-xs text-brand-600 hover:underline inline-flex items-center gap-1 mt-1">DOI Link <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i></a>
+                            </td>
+                            <td class="py-4 px-4 hidden md:table-cell text-xs italic">Physica Scripta</td>
+                            <td class="py-4 px-4 text-center font-semibold">2023</td>
+                            <td class="py-4 px-4 text-center"><span class="bg-blue-100 text-blue-800 text-xs font-bold px-2 py-0.5 rounded">Q2</span></td>
+                        </tr>
+
+                        <tr class="hover:bg-slate-50 transition">
+                            <td class="py-4 px-4">
+                                <p class="font-semibold text-slate-900">Computational study of three-dimensional flow and heat transfer of 25 nm Cu–H2O nanoliquid...</p>
+                                <p class="text-xs text-slate-500 mt-1">P. Rana, N. Srikantha, T. Muhammad, G. Gupta</p>
+                                <a href="https://doi.org/10.1016/j.csite.2021.101340" target="_blank" class="text-xs text-brand-600 hover:underline inline-flex items-center gap-1 mt-1">DOI Link <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i></a>
+                            </td>
+                            <td class="py-4 px-4 hidden md:table-cell text-xs italic">Case Studies in Thermal Eng.</td>
+                            <td class="py-4 px-4 text-center font-semibold">2021</td>
+                            <td class="py-4 px-4 text-center"><span class="bg-emerald-100 text-emerald-800 text-xs font-bold px-2 py-0.5 rounded">Q1</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Education -->
+    <section id="experience" class="py-16 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12">
+            
+            <!-- Teaching Experience Timeline -->
+            <div>
+                <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+                    <i class="fa-solid fa-briefcase text-brand-600"></i> Academic Experience
+                </h2>
+                <div class="space-y-6 relative border-l-2 border-slate-200 ml-3 pl-6">
+                    
+                    <div class="relative">
+                        <div class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-brand-600 border-2 border-white"></div>
+                        <span class="text-xs font-semibold text-brand-600 uppercase">2020 – Present</span>
+                        <h3 class="text-lg font-bold text-slate-900">Assistant Professor</h3>
+                        <p class="text-sm text-slate-600">Department of Mathematics, Ramaiah Institute of Technology, Bangalore</p>
+                    </div>
+
+                    <div class="relative">
+                        <div class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-slate-400 border-2 border-white"></div>
+                        <span class="text-xs font-semibold text-slate-500 uppercase">2018 – 2020</span>
+                        <h3 class="text-lg font-bold text-slate-900">Assistant Professor</h3>
+                        <p class="text-sm text-slate-600">Department of Mathematics, GM Institute of Technology, Davanagere</p>
+                    </div>
+
+                    <div class="relative">
+                        <div class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-slate-400 border-2 border-white"></div>
+                        <span class="text-xs font-semibold text-slate-500 uppercase">2017 – 2018</span>
+                        <h3 class="text-lg font-bold text-slate-900">Assistant Professor</h3>
+                        <p class="text-sm text-slate-600">Department of Mathematics, A.T.M.E College of Engineering, Mysuru</p>
+                    </div>
+
+                    <div class="relative">
+                        <div class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-slate-400 border-2 border-white"></div>
+                        <span class="text-xs font-semibold text-slate-500 uppercase">2012 – 2015</span>
+                        <h3 class="text-lg font-bold text-slate-900">Lecturer</h3>
+                        <p class="text-sm text-slate-600">Department of Mathematics, Nutana Independent PU Science College, Davanagere</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Qualification & Guidance -->
+            <div class="space-y-8">
+                <div>
+                    <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+                        <i class="fa-solid fa-graduation-cap text-brand-600"></i> Education
+                    </h2>
+                    <div class="space-y-4">
+                        <div class="bg-white p-4 rounded-lg border border-slate-200 shadow-sm">
+                            <h3 class="font-bold text-slate-900">Ph.D. in Mathematics (2015 – 2018)</h3>
+                            <p class="text-sm text-slate-600">Kuvempu University</p>
+                            <p class="text-xs text-slate-500 mt-1"><strong>Thesis Title:</strong> A Study on Submanifolds of Almost Contact and Lorentzian Manifolds</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg border border-slate-200 shadow-sm">
+                            <h3 class="font-bold text-slate-900">M.Sc. in Mathematics (2010 – 2012)</h3>
+                            <p class="text-sm text-slate-600">JnanaSahyadri, Kuvempu University</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h2 class="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2">
+                        <i class="fa-solid fa-users text-brand-600"></i> Research Guidance
+                    </h2>
+                    <div class="bg-white p-4 rounded-lg border border-slate-200 shadow-sm">
+                        <span class="bg-green-100 text-green-800 text-xs font-semibold px-2 py-0.5 rounded">Completed (2025)</span>
+                        <p class="font-semibold text-slate-900 mt-2">Soniya Hegde (Ph.D. Scholar, VTU)</p>
+                        <p class="text-xs text-slate-600 mt-1"><em>Topic: Heat transfer and flow analysis of non-Newtonian fluid in wire-coating process</em></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Teaching Subjects -->
+    <section id="teaching" class="py-16 bg-white border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+                <i class="fa-solid fa-chalkboard-user text-brand-600"></i> Teaching Subjects
+            </h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+                <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg text-sm font-semibold text-slate-700 flex items-center gap-2">
+                    <i class="fa-solid fa-check text-brand-600"></i> Multivariable Calculus
+                </div>
+                <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg text-sm font-semibold text-slate-700 flex items-center gap-2">
+                    <i class="fa-solid fa-check text-brand-600"></i> Linear Algebra
+                </div>
+                <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg text-sm font-semibold text-slate-700 flex items-center gap-2">
+                    <i class="fa-solid fa-check text-brand-600"></i> Statistics & Probability
+                </div>
+                <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg text-sm font-semibold text-slate-700 flex items-center gap-2">
+                    <i class="fa-solid fa-check text-brand-600"></i> Integral Transforms
+                </div>
+                <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg text-sm font-semibold text-slate-700 flex items-center gap-2">
+                    <i class="fa-solid fa-check text-brand-600"></i> Numerical Methods
+                </div>
+                <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg text-sm font-semibold text-slate-700 flex items-center gap-2">
+                    <i class="fa-solid fa-check text-brand-600"></i> Discrete Math Structures
+                </div>
+                <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg text-sm font-semibold text-slate-700 flex items-center gap-2">
+                    <i class="fa-solid fa-check text-brand-600"></i> Fluid Mechanics
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Invited Talks -->
+    <section id="talks" class="py-16 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+                <i class="fa-solid fa-microphone-lines text-brand-600"></i> Invited Lectures & Talks
+            </h2>
+            <div class="space-y-4">
+                <div class="p-4 bg-white border border-slate-200 rounded-lg shadow-sm">
+                    <span class="text-xs font-semibold text-brand-600">July 2026</span>
+                    <h3 class="font-bold text-slate-900 text-base mt-1">Equations of the Everyday: Math in the Digital Age</h3>
+                    <p class="text-sm text-slate-600">Induction Program at Ramaiah Polytechnic College (4 Sessions delivered).</p>
+                </div>
+                <div class="p-4 bg-white border border-slate-200 rounded-lg shadow-sm">
+                    <span class="text-xs font-semibold text-brand-600">April 2025</span>
+                    <h3 class="font-bold text-slate-900 text-base mt-1">Geogebra: From Equations to Graphics</h3>
+                    <p class="text-sm text-slate-600">Resource person for workshop at MS Ramaiah College of Arts, Science and Commerce.</p>
+                </div>
+                <div class="p-4 bg-white border border-slate-200 rounded-lg shadow-sm">
+                    <span class="text-xs font-semibold text-brand-600">November 2021</span>
+                    <h3 class="font-bold text-slate-900 text-base mt-1">Visualization of Mathematics using Geogebra</h3>
+                    <p class="text-sm text-slate-600">Resource person for talk organized by GM Institute of Technology, Davanagere.</p>
+                </div>
+                <div class="p-4 bg-white border border-slate-200 rounded-lg shadow-sm">
+                    <span class="text-xs font-semibold text-brand-600">2020</span>
+                    <h3 class="font-bold text-slate-900 text-base mt-1">Live Demonstration: Complex Computations with Maple</h3>
+                    <p class="text-sm text-slate-600">Webinar organized by Binary Semantics & Shiksha ‘O’ Anusandhan Deemed to be University.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Footer -->
+    <footer id="contact" class="bg-slate-900 text-slate-300 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-8">
+            <div class="space-y-3">
+                <h3 class="text-xl font-bold text-white">Dr. Srikantha N</h3>
+                <p class="text-sm text-slate-400">Assistant Professor, Department of Mathematics<br>Ramaiah Institute of Technology, Bangalore</p>
+                <div class="space-y-1 text-sm pt-2">
+                    <p class="flex items-center gap-2"><i class="fa-solid fa-envelope text-brand-600"></i> <a href="mailto:srikanthan@msrit.edu" class="hover:underline">srikanthan@msrit.edu</a></p>
+                    <p class="flex items-center gap-2"><i class="fa-solid fa-phone text-brand-600"></i> +91 9663776370</p>
+                </div>
+            </div>
+            <div class="flex flex-col md:items-end justify-center space-y-2 text-sm text-slate-400">
+                <p>© 2026 Dr. Srikantha N. All Rights Reserved.</p>
+                <p class="text-xs">Life Member - Indian Society for Technical Education (ISTE)</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Toggle JS -->
+    <script>
+        const btn = id => document.getElementById(id);
+        btn('mobile-menu-btn').addEventListener('click', () => {
+            btn('mobile-menu').classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
